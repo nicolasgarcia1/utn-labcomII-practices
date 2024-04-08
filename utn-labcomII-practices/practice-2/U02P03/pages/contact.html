@@ -1,43 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
     <!-- Encabezado -->
-<header>
-    <h1 class="título">Rosario Noticias</h1>
-</header>
-<div class="container">
-    <!-- Navegación / cotenedor izquierdo -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="multimedia.html">Multimedia</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <!-- Contenedor principal -->
-    <main>
-        <section>
-            <h2 class="título">Contacto</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat.</p>
-        </section>
-    </main>
-    <!-- Contenedor secundario / derecho -->
-    <div class="right">
-        <h2>Info</h2>
-        <p><b>Rosario Noticias</b> es un medio de comunicación con sede en la ciudad de Rosario. Desde el 6 de abril de 2024 nuestra misión es brindar al público informacion sobre la actualidad en la región.</p>
+    <header>
+        <h1 class="título">Rosario Noticias</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <section>
+                <h2 class="título">CONTACTO</h2>
+                <form action="index.html" method="get">
+                    <table>
+                        <title>Para comunicarse con nuestro equipo deje aquí sus datos:</title>
+                        <tbody>
+                            <tr>
+                                <td><label for="nombre">Nombre:</label></td>
+                                <td><input type="text" name="nombre" id="nombre" minlength="4" maxlength="30" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input type="email" name="email" id="email" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="edad">Edad:</label></td>
+                                <td><input type="number" name="edad" id="edad"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="color">Color preferido:</label></td>
+                                <td><input type="color" name="color" id="color"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="comentario">Comentarios:</label></td>
+                                <td><textarea name="comentario" id="comentario" cols="25" rows="5"
+                                        minlength="10" required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><label for="submit"></label></td>
+                                <td><input type="submit" value="Enviar"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </section>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p><b>Rosario Noticias</b> es un medio de comunicación con sede en la ciudad de Rosario. Desde el 6 de abril
+                de 2024 nuestra misión es brindar al público informacion sobre la actualidad en la región.</p>
+        </div>
     </div>
-</div>
-<!-- Pie de Página-->
-<footer>
-    <p>© copyright labcomII.com</p>
-</footer>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright rosarionoticias.com</p>
+    </footer>
 </body>
+
 </html>
