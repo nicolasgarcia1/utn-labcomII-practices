@@ -1,0 +1,18 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+ul li {
+    background: rgba(123, 198, 199, 0.8);
+    flex: 1 1 0;
+}
+
+ul p {
+    font-family: sans-serif;
+    color: black;
+}
