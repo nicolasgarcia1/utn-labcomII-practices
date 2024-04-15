@@ -1,0 +1,11 @@
+h2 {
+    display: flex;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+    background: rgba(193,219,210,1.00);
+    width: 250px;
+    height: 250px;
+    align-items: center; /* centrado vertical */
+    justify-content: center; /* centrado horizontal */
+}
