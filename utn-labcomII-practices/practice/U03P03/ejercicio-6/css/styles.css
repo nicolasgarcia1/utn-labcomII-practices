@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    gap: 2px;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+.sidebar,
+.contenido {
+    padding: 12px 24px;
+}
+
+.sidebar {
+    flex-grow: 1;
+    background-color: lightblue;
+}
+
+.contenido {
+    flex-grow: 4;
+    background-color: lightgreen;
+}
